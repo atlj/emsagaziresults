@@ -4,7 +4,7 @@ module.exports = {
     mode: "jit",
     theme: {
         extend: {
-            colors: {},
+            colors: { accent: "#836FFF" },
             fontFamily: { sans: ["Work Sans"] },
         },
     },
