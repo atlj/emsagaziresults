@@ -5,8 +5,8 @@ module.exports = {
     theme: {
         extend: {
             colors: { accent: "#836FFF" },
-            fontFamily: { sans: ["Work Sans"] },
         },
+        fontFamily: { sans: ["Work Sans"] },
     },
     variants: {
         extend: {},
