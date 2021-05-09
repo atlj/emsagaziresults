@@ -9,13 +9,10 @@ interface Props {
 export const EntryBox = ({ value, onChange, onSubmit, className }: Props) => {
     return (
         <div>
-            <form
-                className=" text-white flex text-xl md:text-3xl "
-                onSubmit={onSubmit}
-            >
+            <form className="  flex text-xl md:text-3xl " onSubmit={onSubmit}>
                 <input
                     className={cn(
-                        "bg-dark-800 w-48 md:w-80 pl-2 md:pl-4 md:py-2 py-1 rounded-l-md ",
+                        "bg-white w-48 shadow-md md:w-80 pl-2 md:pl-4 md:py-2 py-1 rounded-l-md ",
                         className,
                     )}
                     placeholder="Buraya bir ID girin."
@@ -27,7 +24,7 @@ export const EntryBox = ({ value, onChange, onSubmit, className }: Props) => {
                     onChange={onChange}
                 />
                 <input
-                    className="bg-dark-800 w-24 md:w-36 rounded-r-md self-end  py-1 md:py-2 font-light "
+                    className="bg-white shadow-md w-24 md:w-36 rounded-r-md self-end  py-1 md:py-2  "
                     type="submit"
                 />
             </form>
